@@ -46,10 +46,10 @@
                 <thead>
                 <tr>
                     <th>Acciones</th>
+                    <th>Miniatura</th>
                     <th>Id Video</th>
                     <th>Título</th>
                     <th>Descripción</th>
-                    <th>Miniatura</th>
                     <th>Enlace Video</th>
                     <th>Nombre</th>
                     <th>Correo</th>
