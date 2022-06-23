@@ -21,7 +21,7 @@
             </div>
 
             <div class="card-footer text-muted">
-                Subido por {{ $video->name }} hace {{ $video->created_at }}
+                Subido por {{ $video->name }} {{LongTimeFilter($video->created_at)}}
             </div>
         </div>
 
@@ -50,7 +50,7 @@
                <div class="panel panel-default comment-data">
                    <div class="panel-heading">
                        <div class="panel-title">
-                           <strong>Pepe</strong>  {{$comment->created_at}}
+                           <strong>Pepe Toño</strong>  {{LongTimeFilter($comment->created_at)}}
                        </div>
                    </div>
                    <div class="panel-body">
